@@ -47,3 +47,37 @@ function addAll(a, b, c, d, e) {
 
 addAll(10, 20, 30);
 addAll(5, 10, 15, 20, 25)
+
+
+
+console.log("=============| function arguments |=============")
+
+function doubleIt(num) {
+    const doubled = num * 2;
+    console.log(num, "Doubled Value is:", doubled)
+}
+// pass value
+doubleIt(25)
+doubleIt(75)
+
+// pass variable
+const money = 1000;
+doubleIt(money)
+
+// here - parameter:num   arguments:25
+
+
+function difference(num_3, num_4) {
+    const diff = num_3 - num_4;
+    console.log(num_3, num_4, "Age Difference :", diff)
+}
+
+// direct value pass
+difference(30, 15)
+
+const fatherAge = 45;
+const myAge = 18;
+difference(fatherAge, myAge)
+
+
+
