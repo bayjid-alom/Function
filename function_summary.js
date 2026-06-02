@@ -81,3 +81,22 @@ difference(fatherAge, myAge)
 
 
 
+
+console.log("=============| return & set return value |=============")
+// return -- console outside of function body
+
+function tenTimes(number_10) {
+    const result = number_10 * 10;
+    return result;
+}
+const output = tenTimes(10)
+console.log("10X :", output)
+
+
+function makeHalf(number_5) {
+    const half = number_5 / 2;
+    return half;
+}
+
+const half = makeHalf(1000);
+console.log("Half value :", half)
