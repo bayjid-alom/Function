@@ -190,7 +190,7 @@ step-2. call check whether the function is called properly
 step-3. set a parameter(s)
 step-4. pass the paremeter(s), check whether parameter is passed in a proper format.
 step-5. do the function tasks (step by step)
- */
+*/
 
 function sumOffNumbers(numbers) {
     let sum = 0;
@@ -222,3 +222,71 @@ const sum_2 = summation(numArr)
 console.log("Summation :", sum_2)
 
 
+
+console.log("=============| return all the even numbers |=============")
+
+/**
+ * create function that will return only the even numbers
+ * 
+ */
+
+function evenNumbersOnly(num__s) {
+    // console.log(num__s)
+    const evens = [];
+
+    for (number of num__s) {
+        console.log(number)
+        if (number % 2 === 0) {
+            console.log("Even :", number)
+            evens.push(number)
+        }
+    }
+    return evens;
+}
+
+const num__s = [5, 15, 25, 35, 10, 18, 100]
+const evens = evenNumbersOnly(num__s)
+console.log("Array of even numbers :", evens)
+
+
+
+function odd_only(num__odd) {
+    console.log(num__odd)
+
+    let odds = [];
+    for (number of num__odd) {
+        // console.log(number)
+        if (number % 2 === 1) {
+            console.log("Odd :", number)
+            odds.push(number);
+        }
+    }
+    return odds;
+}
+
+const num_array = [515, 520, 525, 540, 555, 570];
+const odds = odd_only(num_array)
+console.log("Odd numbers array :", odds)
+
+
+
+
+
+// Even numbers summation (array)
+
+function sumOfEvenNumbers(numberss) {
+    console.log(numberss)
+
+    let sum = 0;
+    for (number of numberss) {
+        if (number % 2 === 0) {
+            console.log(number)
+            sum = sum + number;
+        }
+    }
+    return sum;
+}
+
+const numbers_arr = [50, 55, 100, 155, 200, 255, 300];
+const evens_summation = sumOfEvenNumbers(numbers_arr)
+console.log("Summation of Even numbers :", evens_summation)
