@@ -132,5 +132,58 @@ console.log(isOdd(15))
 
 
 
+console.log("=============| various parameters |=============")
+
+/**
+ for a given string tell me wheteher it has even number or characters or not
+
+ */
+
+function evenSizedString(str) {
+    console.log(str)
+
+    const sized = str.length;
+    console.log("Length :", sized)
+    if (sized % 2 === 0) {
+        console.log("Even Sized.")
+        return true;
+    }
+    else {
+        console.log("Odd Sized.")
+        return false;
+    }
+}
+
+evenSizedString("Dhaka")
+
+
+// boolean pass + number pass
+function doubleOrTripple(aNumber, doDouble) {
+    if (doDouble) {
+        const result = aNumber * 2;
+        return result;
+    }
+    else {
+        const result = aNumber * 3;
+        return result;
+    }
+}
+
+console.log(doubleOrTripple(5, true))
+console.log(doubleOrTripple(5, false))
+
+
+
+function numberOfElements(numbers) {
+    const len = numbers.length;
+    return len;
+}
+
+const checkLength = numberOfElements([10, 20, 30, 40])
+console.log("Length is (array) :", checkLength)
+
+
+
+
 
 
