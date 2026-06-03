@@ -100,3 +100,37 @@ function makeHalf(number_5) {
 
 const half = makeHalf(1000);
 console.log("Half value :", half)
+
+
+
+console.log("=============| conditional return |=============")
+
+function isEven(number_15) {
+    if (number_15 % 2 === 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+const evenCheck = isEven(15)
+console.log(evenCheck)
+console.log(isEven(10))
+
+
+
+function isOdd(x) {
+    if (x % 2 === 1) {
+        return true;
+    }
+    return false;      // short
+}
+console.log(isOdd(10))
+console.log(isOdd(15))
+
+
+
+
+
+
