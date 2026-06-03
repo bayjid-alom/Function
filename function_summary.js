@@ -181,5 +181,44 @@ console.log("Length is (array) :", checkLength)
 
 
 
+console.log("=============| sum of all numbers in array |=============")
+
+/*
+Objective: write a function to give me the sum of all numbers in an array.
+step-1. declare a function
+step-2. call check whether the function is called properly
+step-3. set a parameter(s)
+step-4. pass the paremeter(s), check whether parameter is passed in a proper format.
+step-5. do the function tasks (step by step)
+ */
+
+function sumOffNumbers(numbers) {
+    let sum = 0;
+    for (number of numbers) {
+        console.log(number)
+        sum = sum + number;
+    }
+    return sum;
+}
+
+const nums = [11, 22, 33, 44, 55]
+const sum = sumOffNumbers(nums)
+console.log("Sum of numbers is:", sum)
+
+
+
+
+function summation(number_x) {
+    let sum = 0;
+    for (number of number_x) {
+        console.log(number)
+        sum = sum + number;
+    }
+    return sum;
+}
+
+const numArr = [5, 10, 15, 20]
+const sum_2 = summation(numArr)
+console.log("Summation :", sum_2)
 
 
