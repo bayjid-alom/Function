@@ -134,10 +134,6 @@ console.log(isOdd(15))
 
 console.log("=============| various parameters |=============")
 
-/**
- for a given string tell me wheteher it has even number or characters or not
-
- */
 
 function evenSizedString(str) {
     console.log(str)
