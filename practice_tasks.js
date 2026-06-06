@@ -17,6 +17,24 @@ console.log(sum_numbers(50, 50))
 // ### Task-2
 // Write a function called `find_max()` which takes three numbers as parameters and returns the largest number.
 
+// Program - 02
+function find_max(num_a, num_b, num_c) {
+    console.log("Three numbers :", num_a, num_b, num_c)
+    if (num_a > num_b && num_a > num_c) {
+        console.log("Largest number is :", num_a)
+    }
+    else if (num_b > num_c && num_b > num_a) {
+        console.log("Largest number is :", num_b)
+    }
+    else {
+        console.log("Largest number is :", num_c)
+    }
+}
+
+const num_abc = find_max(25, 50, 75)
+
+
+
 // ### Task-3
 // Write a function called `is_positive()` which takes a number as a parameter. If the number is positive return `"Positive"`, otherwise return `"Negative"`.
 
