@@ -56,6 +56,16 @@ is_positive(10)
 // ### Task-4
 // Write a function called `string_length()` which takes a string as a parameter and returns the length of that string.
 
+// Program - 04
+function string_length(str) {
+    console.log("Lenght of the string :", str.length)
+}
+
+string_length("I am learning Web Development.")
+string_length("I am a student of Dhaka Polytechnic Institute.")
+
+
+
 // ### Task-5
 // Write a function called `square_number()` which takes a number and returns its square.
 
