@@ -38,6 +38,21 @@ const num_abc = find_max(25, 50, 75)
 // ### Task-3
 // Write a function called `is_positive()` which takes a number as a parameter. If the number is positive return `"Positive"`, otherwise return `"Negative"`.
 
+// Program - 03
+function is_positive(num_check) {
+    if (num_check > 0) {
+        console.log("Positive")
+    }
+    else {
+        console.log("Negative")
+    }
+
+}
+
+is_positive(10)
+
+
+
 // ### Task-4
 // Write a function called `string_length()` which takes a string as a parameter and returns the length of that string.
 
